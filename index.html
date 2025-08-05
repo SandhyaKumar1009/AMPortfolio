@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mechanical Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Initializing Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Mouse Glow Effect -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <!-- Particle System -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <!-- <div class="logo glitch" data-text="ARUN MARI">ARUN MARI</div> -->
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Geometric Shapes -->
+    <div class="geometric-shape shape1"></div>
+    <div class="geometric-shape shape2"></div>
+    <div class="geometric-shape shape3"></div>
+
+    <!-- Home Section -->
+    <section id="home" class="active">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="glitch" data-text="ARUN MARI ANANDAKUMAR">ARUN MARI ANANDAKUMAR</h1>
+                        <h2 class="typing-text" id="typingText"></h2>
+                        <div class="hero-description">
+                            <p>Crafting the future through precision engineering and innovative design. Transforming complex mechanical challenges into elegant solutions that push the boundaries of what's possible.</p>
+                        </div>
+                        <!-- <a href="#" class="cta-button" onclick="showSection('projects')">Explore My Work</a> -->
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-image-container">
+                            <img src="D:\Arun Documents\ArunPortfolio\Screenshot 2025-07-31 235719.png" alt="Arun Mari Anandakumar" class="profile-image">
+                            <div class="profile-image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Engineering Excellence</h2>
+                    <div class="about-cards" style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
+                        <div class="about-card" data-category="process-sheets" data-title="Process Sheet Creation & Optimization">
+                            <img src="D:\Arun Documents\ArunPortfolio\1st.jpg" alt="Process Sheet Creation" class="about-card-image">
+                            <h4 style="margin-bottom:0.5rem; color:var(--primary);">Process Sheet Creation & Optimization</h4>
+                            <p style="color:#ccc; font-size:1rem;">Click to view process sheet details</p>
+                        </div>
+                        <div class="about-card" data-category="ecn-management" data-title="ECN Management">
+                            <img src="D:\Arun Documents\ArunPortfolio\2nd.jpg" alt="ECN Management" class="about-card-image">
+                            <h4 style="margin-bottom:0.5rem; color:var(--accent);">Engineering Change Note (ECN) Management</h4>
+                            <p style="color:#ccc; font-size:1rem;">Click to view ECN management details</p>
+                        </div>
+                        <div class="about-card" data-category="stage-drawings" data-title="Stage Drawing Creation">
+                            <img src="D:\Arun Documents\ArunPortfolio\3rd.jpg" alt="Stage Drawing Creation" class="about-card-image">
+                            <h4 style="margin-bottom:0.5rem; color:var(--secondary);">Stage Drawing Creation for Manufacturing</h4>
+                            <p style="color:#ccc; font-size:1rem;">Click to view stage drawing details</p>
+                        </div>
+                        <div class="about-card" data-category="cost-sheets" data-title="Cost Sheet Creation">
+                            <img src="D:\Arun Documents\ArunPortfolio\Screenshot 2025-08-05 225432.png" alt="Cost Sheet Creation" class="about-card-image">
+                            <h4 style="margin-bottom:0.5rem; color:var(--primary);">Cost Sheet Creation for Machined Components</h4>
+                            <p style="color:#ccc; font-size:1rem;">Click to view cost sheet details</p>
+                        </div>
+                    </div>
+                    <p>A Mechanical Design & Process Planning Engineer with nearly 4 years of experience in CAD modeling, precision manufacturing, and lean production workflows. I specialize in turning complex engineering concepts into manufacturable products using tools like SolidWorks, AutoCAD, and CREO, with working knowledge of Fusion 360.</p>
+                    <p>Throughout my career, I've worked on reducing design-to-manufacturing lead times by 15%, improving BOM accuracy to 99%, and driving significant cost savings through smarter planning and process improvements. I've managed hundreds of ECN/ECR implementations, developed accurate cost estimates, and solved critical shop-floor issues that directly improved productivity and product quality.</p>
+                    <p>I'm passionate about building efficient, reliable engineering solutions and continuously improving both products and processes.</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <h4>⚙️ CAD Mastery</h4>
+                            <p>SolidWorks, CREO, Fusion 360, AutoCAD</p>
+                        </div>
+                        <div class="skill">
+                            <h4>🔧 Advanced Prototyping</h4>
+                            <p>3D Printing, CNC, Injection Molding</p>
+                        </div>
+                        <div class="skill">
+                            <h4>🏭 Smart Manufacturing</h4>
+                            <p>Industry 4.0, Automation</p>
+                        </div>
+                        <div class="skill">
+                            <h4>🖥️ Programming Languages</h4>
+                            <p>PC,  C++, Python (Basic)</p>
+                        </div>
+                        <div class="skill">
+                            <h4>📊 Engineering Processes</h4>
+                            <p>GD&T, BOM Management, ECN & ECR, DFMEA, PFMEA, Design for Manufacturability (DFM), Cost Analysis, Tolerance Stack-Up Analysis</p>
+                        </div>
+                        <div class="skill">
+                            <h4>🤝💬 Soft Skills</h4>
+                            <p>Problem-Solving, Cross-Functional Collaboration, Communication, Continuous Improvement, Leadership</p>
+                        </div>
+                        <div class="skill">
+                            <h4>🔄 Product Lifecycle Management</h4>
+                            <p>Product Development, Prototyping, Root Cause Analysis, Risk Assessment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-orbit orbit1">
+                        <div class="tech-icon" style="top: -20px; left: 50%; transform: translateX(-50%);">⚙️</div>
+                    </div>
+                    <div class="tech-orbit orbit2">
+                        <div class="tech-icon" style="right: -20px; top: 50%; transform: translateY(-50%);">🔧</div>
+                    </div>
+                    <div class="tech-orbit orbit3">
+                        <div class="tech-icon" style="bottom: -20px; left: 50%; transform: translateX(-50%);">📐</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- CNC Tool Holder Project -->
+                <div class="project-card">
+                    <div class="project-preview">
+                        <!-- <img src="C:\Users\sandh\Pictures\Screenshots\Screenshot 2025-07-31 221904.png" alt="CNC Tool Holder" class="project-image"> -->
+                        <div class="project-title">CNC Tool Holder & Split Holder</div>
+                        <div class="project-description">Redesign of CNC tool holders using fixture innovation and tolerance optimization, completed at Eppinger Tooling Asia Pvt. Ltd.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">CREO</span>
+                            <span class="tech-tag">AutoCAD</span>
+                            <span class="tech-tag">ERP (ABAS)</span>
+                            <span class="tech-tag">VMC & HMC</span>
+                            <span class="tech-tag">GD&T</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="project-features">
+                                <li>Converted single-unit to two-part holders for better tolerance and cost savings.</li>
+                                <li>Used forged materials and custom fixtures to reduce machining time and runout.</li>
+                                <li>Led cross-functional team and integrated ERP for BOM and process flow.</li>
+                                <li>Delivered ISO & DIN standard-compliant solutions with reduced machining cost.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cycloidal Gearbox Project -->
+                <div class="project-card">
+                    <div class="project-preview">
+                        <!-- <img src="https://picsum.photos/seed/gearbox1/600/300" alt="Cycloidal Gearbox" class="project-image"> -->
+                        <div class="project-title">Cycloidal Gearbox</div>
+                        <div class="project-description">Development of a backlash-free, torque-efficient cycloidal gearbox prototype for CNC applications.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Cycloidal Gear Design</span>
+                            <span class="tech-tag">CREO</span>
+                            <span class="tech-tag">ERP (ABAS)</span>
+                            <span class="tech-tag">VMC & HMC</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="project-features">
+                                <li>Optimized gear geometry and tolerance for smoother torque output.</li>
+                                <li>Designed and tested custom clamping methods for assembly precision.</li>
+                                <li>Collaborated with vendors for efficient time and load management.</li>
+                                <li>Successfully built functional prototype reducing costs and inefficiencies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agricultural Sprayer Project -->
+                <div class="project-card">
+                    <div class="project-preview">
+                        <!-- <img src="https://picsum.photos/seed/sprayer1/600/300" alt="Agricultural Sprayer" class="project-image"> -->
+                        <div class="project-title">Agricultural Sprayer</div>
+                        <div class="project-description">Mechanically powered sprayer using a slider crank mechanism to replace traditional backpack sprayers.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">CREO</span>
+                            <span class="tech-tag">Slider Crank Mechanism</span>
+                            <span class="tech-tag">Gas Welding</span>
+                            <span class="tech-tag">Mild Steel</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="project-features">
+                                <li>Designed adjustable nozzles and 6ft spray width system.</li>
+                                <li>Increased tank capacity to 16L+ and added flow control valves.</li>
+                                <li>Reduced operator fatigue with cart-based design.</li>
+                                <li>Won 2nd place in college project competition.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coming Soon Project -->
+                <!-- <div class="project-card">
+                    <div class="project-preview">
+                        <img src="https://picsum.photos/seed/comingsoon/600/300" alt="Coming Soon" class="project-image">
+                        <div class="project-title">[New Project Coming Soon]</div>
+                        <div class="project-description">Stay tuned for the next groundbreaking project update. Placeholder for future innovation!</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Innovation</span>
+                            <span class="tech-tag">Design</span>
+                            <span class="tech-tag">Engineering</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="project-features">
+                                <li>Exciting new project in development</li>
+                                <li>Cutting-edge technology implementation</li>
+                                <li>Innovative solutions for real-world challenges</li>
+                                <li>Coming soon with detailed case study</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Let's Build the Future</h2>
+                <p style="color: #ccc; font-size: 1.2rem;">Ready to revolutionize your next engineering challenge</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>🚀 Email</h3>
+                    <p>arunmarianandakumar1707@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📡 Phone</h3>
+                    <p>+49 176 3217 6546 </p>
+                </div>
+                <div class="contact-item">
+                    <h3>🔗 LinkedIn</h3>
+                    <p>linkedin.com/in/arun-mari-anandakumar-21ab6918b/</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🏢 Location</h3>
+                    <p>Berlin, Germany</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalDetails" class="modal-details"></div>
+        </div>
+    </div>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-about-modal">&times;</span>
+            <div id="aboutModalDetails" class="modal-details"></div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="image-modal-close">&times;</span>
+        <div class="image-modal-content">
+            <div id="imageGrid" class="image-grid">
+                <!-- Images will be dynamically inserted here -->
+            </div>
+            <div id="imageViewer" style="display: none;">
+                <img id="modalImage" src="" alt="">
+                <div id="imageModalTitle" class="image-modal-title"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
