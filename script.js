@@ -344,16 +344,16 @@ const fullProjectDetails = {
         </p>
       </div>
       <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 221904.png" alt="CNC Tool Holder Design" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 221904.png" alt="CNC Tool Holder Design" class="project-detail-image">
 </div>
       <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 221934.png" alt="CNC Tool Holder Components" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 221934.png" alt="CNC Tool Holder Components" class="project-detail-image">
 </div>
        <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 221954.png" alt="CNC Tool Holder in Action" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 221954.png" alt="CNC Tool Holder in Action" class="project-detail-image">
 </div>
       <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 222038.png" alt="Cycloidal Gearbox Design" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 222038.png" alt="Cycloidal Gearbox Design" class="project-detail-image">
 </div>
     `,
 
@@ -412,13 +412,13 @@ const fullProjectDetails = {
         </p>
       </div>
       <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 222949.png" alt="CNC Tool Holder Design" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 222949.png" alt="CNC Tool Holder Design" class="project-detail-image">
 </div>
       <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223014.png" alt="CNC Tool Holder Components" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 223014.png" alt="CNC Tool Holder Components" class="project-detail-image">
 </div>
        <div class="project-image-container">
-    <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223051.png" alt="CNC Tool Holder in Action" class="project-detail-image">
+    <img src="Screenshot 2025-07-31 223051.png" alt="CNC Tool Holder in Action" class="project-detail-image">
 </div>
     `,
     "Agricultural Sprayer": `
@@ -478,16 +478,16 @@ const fullProjectDetails = {
         </p>
       </div>
       <div class="project-image-container">
-        <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223813.png" alt="Agricultural Sprayer Design" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223813.png" alt="Agricultural Sprayer Design" class="project-detail-image">
       </div>
       <div class="project-image-container">
-        <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223307.png" alt="Agricultural Sprayer Components" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223307.png" alt="Agricultural Sprayer Components" class="project-detail-image">
       </div>
       <div class="project-image-container">
-        <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223417.png" alt="Agricultural Sprayer in Action" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223417.png" alt="Agricultural Sprayer in Action" class="project-detail-image">
       </div>
       <div class="project-image-container">
-        <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-07-31 223432.png" alt="Agricultural Sprayer Assembly" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223432.png" alt="Agricultural Sprayer Assembly" class="project-detail-image">
       </div>
     `
 };
@@ -557,7 +557,7 @@ const imageModalClose = document.querySelector('.image-modal-close');
 const aboutCardDetails = {
     "Process Sheet Creation & Optimization": `
       <h2 style="color:#ff6b35;">📘Process Sheet Creation & Optimization – 2024</h2>
-      <img src="D:/Arun Documents/ArunPortfolio/1st.jpg" alt="Process Sheet Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+      <img src="1st.jpg" alt="Process Sheet Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
       <div style="text-align: left; line-height: 1.6;">
         <p><strong>🔧 Role Summary:</strong><br>
         In 2024, I was directly responsible for managing the end-to-end lifecycle of manufacturing process sheets, including both new creation and process optimization. These documents form the backbone of the shopfloor's operational flow and are vital for process control, traceability, and ERP integration.</p>
@@ -615,7 +615,7 @@ const aboutCardDetails = {
     `,
     "ECN Management": `
       <h2 style="color:#00d4ff;">📘Engineering Change Note (ECN) Management – 2024</h2>
-      <img src="D:/Arun Documents/ArunPortfolio/2nd.jpg" alt="ECN Management" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+      <img src="2nd.jpg" alt="ECN Management" style="width:100%; border-radius:12px; margin-bottom:1rem;">
       <div style="text-align: left; line-height: 1.6;">
         <p><strong>🎯 Overview:</strong><br>
         In 2024, I was responsible for executing and managing Engineering Change Notes (ECNs) received from the R&D department. These ECNs contained crucial design and process updates driven by industry compliance shifts, customer requirements, and internal optimization goals.</p>
@@ -676,7 +676,7 @@ const aboutCardDetails = {
     `,
     "Stage Drawing Creation": `
       <h2 style="color:#f7931e;">📘Stage Drawing Creation for Manufacturing – 2024</h2>
-      <img src="D:/Arun Documents/ArunPortfolio/3rd.jpg" alt="Stage Drawing Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+      <img src="3rd.jpg" alt="Stage Drawing Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
       <div style="text-align: left; line-height: 1.6;">
         <p><strong>🎯 Overview:</strong><br>
         In 2024, I successfully developed and delivered stage drawings to support production planning and vendor development. These drawings serve as step-by-step manufacturing blueprints, showcasing component evolution at each stage of production. This process ensures clarity, accuracy, and consistency in how complex components are fabricated and verified.</p>
@@ -725,7 +725,7 @@ const aboutCardDetails = {
     `,
     "Cost Sheet Creation": `
       <h2 style="color:#ff6b35;">📘Cost Sheet Creation for Machined Components – 2024</h2>
-      <img src="D:/Arun Documents/ArunPortfolio/Screenshot 2025-08-05 225432.png" alt="Cost Sheet Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+      <img src="Screenshot 2025-08-05 225432.png" alt="Cost Sheet Creation" style="width:100%; border-radius:12px; margin-bottom:1rem;">
       <div style="text-align: left; line-height: 1.6;">
         <p><strong>🎯 Overview:</strong><br>
         As a part of the RFQ (Request for Quotation) evaluation process, I was responsible for preparing detailed cost sheets for machined components based on customer requirements. My approach integrates technical feasibility analysis with economic evaluation to ensure competitive pricing without compromising manufacturing capability or component integrity.</p>
