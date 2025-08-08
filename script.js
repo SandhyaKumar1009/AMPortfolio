@@ -119,7 +119,7 @@ function initializeScrollEffects() {
 // Typing Animation for Subtitle
 function initializeTypingAnimation() {
     const typingText = document.getElementById('typingText');
-    const text = "Mechanical Engineer & Product Designer";
+    const text = "Mechanical Process Planning and Design Engineer";
     let index = 0;
     let isDeleting = false;
     
@@ -288,56 +288,95 @@ const modalDetails = document.getElementById("modalDetails");
 const closeModal = document.querySelector(".close-btn");
 
 const fullProjectDetails = {
-    "CNC Tool Holder & Split Holder": `
-      <h2 style="color:#ff6b35;">🚀 Design and Development of CNC Tool Holder & Split Holder</h2>
-      <p><strong>Company:</strong> Eppinger Tooling Asia Pvt. Ltd., Coimbatore, India</p>
-      <p><strong>Position:</strong> Mechanical Engineer | <strong>Duration:</strong> September 2022 – October 2023</p>
-      <h3>🔧 Technologies & Tools Used:</h3>
+    "🔧 Tool Holder Optimization & Modular Design for CNC Machines": `
+      <h2 style="color:#ff6b35;">🔧 Tool Holder Optimization & Modular Design for CNC Machines</h2>
+      <p><strong>Role:</strong> Mechanical Engineer | <strong>Company:</strong> Eppinger Tooling Asia Pvt. Ltd., Coimbatore</p>
+      <p><strong>Duration:</strong> Sep 2022 – Oct 2023 (1 year)</p>
+      <h3>🔧 Tools & Skills:</h3>
+      <p>CREO, AutoCAD, CNC Machining, GD&T, BOM, VMC/HMC, Forging, Precision Engineering, Process Planning, ISO & DIN Standards, Metrology, ERP (ABAS), Tooling Design, Cost Optimization, DFM/DFA, Mechanical Tolerancing, Quality Control, Fixture Design, CAM, G-Codes & M-Codes</p>
+      
+      <h3>🚀 Project Overview</h3>
+      <p>Led the full lifecycle design and process development of an innovative modular tool holder system by segmenting traditional monolithic holders into a Housing and Shaft sub-assembly. This strategic redesign aimed at improving cost-efficiency, machining precision, and operational flexibility in CNC environments.</p>
+      
+      <h3>🎯 Key Objectives</h3>
       <ul>
-        <li>CAD Tools: CREO (3D Modelling), AutoCAD (2D Drafting)</li>
-        <li>ERP System: ABAS (For BOM and workflow management)</li>
-        <li>CNC Technologies: VMC, HMC</li>
-        <li>Manufacturing Methods: Forging, Sawing, Heat Treatment (Case hardening, Stress relief), Precision CNC Machining, Grinding, Drilling, Milling</li>
-        <li>Quality & Testing Tools: Metrology Instruments, Runout inspection tools, GD&T practices</li>
+        <li>Analyze existing single-piece tool holders and identify limitations.</li>
+        <li>Redesign and validate modular components (housing + shaft).</li>
+        <li>Reduce production costs, machining time, and number of operations.</li>
+        <li>Optimize tolerancing for manufacturability and interchangeability.</li>
+        <li>Implement a sustainable design-for-manufacturing (DFM) strategy.</li>
+        <li>Improve runout control and component stability through innovative clamping and fixture design.</li>
       </ul>
-      <h3>🎓 Engineering Topics Applied:</h3>
+      
+      <h3>🔍 Key Contributions & Responsibilities</h3>
+      <h4>✅ Design & Simulation</h4>
       <ul>
-        <li>Computer-Aided Design (CAD)</li>
-        <li>Manufacturing Process Optimization</li>
-        <li>Geometric Dimensioning & Tolerancing (GD&T)</li>
-        <li>Material Selection & Heat Treatment</li>
-        <li>CNC Programming Logic (G-Code, M-Code Planning)</li>
-        <li>Quality Control & Inspection Techniques</li>
-        <li>Project & Team Management</li>
+        <li>Conceptualized and developed 2D & 3D CAD models in CREO and AutoCAD following ISO & DIN standards.</li>
+        <li>Integrated threading and toothed interfaces for effective Housing-Shaft assembly.</li>
+        <li>Conducted tolerance stack-up analysis and GD&T validation to ensure compatibility and performance.</li>
       </ul>
-      <h3>🌟 Project Highlights:</h3>
+      
+      <h4>✅ Process Planning & Manufacturing</h4>
       <ul>
-        <li>Converted traditional single-unit tool holders into a two-part system (Housing + Shaft), enabling improved tolerance management and cost-effective production.</li>
-        <li>Developed detailed process guide cards and stage drawings, selecting raw materials based on machinability and performance.</li>
-        <li>Reduced waste by choosing forged over bright rods, and designed custom fixtures for clamping to reduce tolerance errors.</li>
-        <li>Ran multiple trials, recorded operation times, machining efficiency, and tolerance performance, and compared new assembly output with traditional tool holders.</li>
-        <li>Collaborated with QA team to verify dimensional accuracy and implemented mid-process and post-process quality checks.</li>
+        <li>Developed detailed process flowcharts, guide cards, and BOM for all stages of manufacturing.</li>
+        <li>Chose optimal material types (forged blanks vs bright/black rods) and specified heat treatment strategies (case-hardening, toughening) based on mechanical properties and machinability.</li>
+        <li>Oversaw in-house and external operations, including VMC/HMC machining, drilling, grinding, turning, and fixture design.</li>
       </ul>
-      <h3>🧰 Challenges Overcome:</h3>
+      
+      <h4>✅ Fixture & Clamping Design</h4>
       <ul>
-        <li>Resolved tolerance mismatches in assembly via fixture innovation.</li>
-        <li>Reduced runout in shaft-housing mating by refining clamping strategy.</li>
-        <li>Managed production delays through load-sharing across two ETA plants.</li>
-        <li>Optimized material procurement and reduced machining time by switching to forged parts.</li>
+        <li>Collaborated with the Tool Room to design custom fixtures to address clamping-related tolerance issues.</li>
+        <li>Solved runout and concentricity challenges by engineering sub-component geometries and fixtures, improving repeatability across production batches.</li>
       </ul>
-      <h3>🧬 Project Management & Leadership:</h3>
+      
+      <h4>✅ Quality Control & Cost Estimation</h4>
       <ul>
-        <li>Led cross-functional team through all project stages, created Gantt charts, tracked milestones, and delegated design and fabrication tasks.</li>
-        <li>Maintained coordination across departments: Design, QA, Procurement, and Production.</li>
-        <li>Ensured documentation and ERP (ABAS) integration for BOM and process flows.</li>
+        <li>Conducted comprehensive time studies and machining cost evaluations.</li>
+        <li>Ensured compliance with GD&T and metrological standards, contributing to high-quality output with <0.02mm runout.</li>
       </ul>
-      <h3>📊 Results & Takeaways:</h3>
+      
+      <h4>✅ Team Leadership & Coordination</h4>
       <ul>
-        <li>Achieved reduced machining cost and cycle time.</li>
-        <li>Enhanced performance and stability of CNC tool holders.</li>
-        <li>Learned deep insights into tolerance management and fixture design.</li>
-        <li>Delivered a scalable and industry-ready solution that aligned with ISO & DIN standards.</li>
+        <li>Led cross-functional teams across two plants (ETA-200 for Tool Holders, ETA-300 for Gears).</li>
+        <li>Created Gantt charts for project planning, conducted regular progress meetings, and facilitated knowledge-sharing sessions across design, production, and QA teams.</li>
       </ul>
+      
+      <h3>📊 Quantifiable Achievements</h3>
+      <ul>
+        <li>🔻 30% Reduction in machining time per tool holder through modular redesign.</li>
+        <li>💲 25% Cost savings in production by transitioning from monolithic to two-part components.</li>
+        <li>🛠 40+ components successfully managed through ERP (ABAS) and internal/external workflows.</li>
+        <li>📉 60% reduction in material waste by shifting to forged blanks from rods.</li>
+        <li>📏 >98% accuracy in final components achieved through iterative prototyping and fixture tuning.</li>
+      </ul>
+      
+      <h3>🧠 Challenges Overcome</h3>
+      <ul>
+        <li>Addressed critical runout control issues by engineering separate mating interfaces with precision fits.</li>
+        <li>Overcame tooling limitations by initiating the purchase and specification of new metrology equipment.</li>
+        <li>Dealt with tolerance mismatches through component redesign and fixture alignment strategies, preventing large-scale scrappage.</li>
+      </ul>
+      
+      <h3>🧩 Tools, Technologies & Standards Used</h3>
+      <ul>
+        <li><strong>CAD/CAM Software:</strong> CREO, AutoCAD</li>
+        <li><strong>Manufacturing Tools:</strong> CNC (VMC/HMC), Forging, Grinding, Turning, Drilling</li>
+        <li><strong>Standards & Methodologies:</strong> ISO, DIN, GD&T, DFM/DFA</li>
+        <li><strong>ERP System:</strong> ABAS</li>
+        <li><strong>Quality Tools:</strong> Metrology instruments, Process Flow Cards, Inspection Reports</li>
+        <li><strong>Programming:</strong> G-Codes, M-Codes</li>
+      </ul>
+      
+      <h3>🏁 Project Outcome</h3>
+      <p>The reengineered modular tool holder system was successfully tested and integrated into production with superior runout performance, reduced costs, and simplified assembly workflows. The project established a replicable framework for future product redesigns and was well-received by the German head office.</p>
+      
+      <h3>🧠 Key Learnings & Impact</h3>
+      <ul>
+        <li>Gained deep technical expertise in mechanical design for CNC applications, from raw material selection to final quality inspection.</li>
+        <li>Strengthened cross-disciplinary collaboration, improving coordination across engineering, production, and QA.</li>
+        <li>Developed practical solutions to real-world production challenges, showcasing engineering creativity and strategic thinking.</li>
+      </ul>
+      
       <div class="confidential-warning">
         <p style="color: #ff6b35; font-weight: bold; text-align: center; margin: 2rem 0 1rem 0; padding: 1rem; background: rgba(255, 107, 53, 0.1); border-radius: 8px; border: 1px solid rgba(255, 107, 53, 0.3);">
           ⚠️ CONFIDENTIAL CONTENT - Images are intentionally blurred for privacy and security purposes
@@ -357,55 +396,121 @@ const fullProjectDetails = {
 </div>
     `,
 
-    "Cycloidal Gearbox": `
-      <h2 style="color:#ff6b35;">🚀 Design and Development of Cycloidal Gearbox for CNC Speed Reduction</h2>
-      
+    "⚙ Cycloidal Gearbox Design & Optimization for CNC Applications": `
+      <h2 style="color:#ff6b35;">⚙ Cycloidal Gearbox Design & Optimization for CNC Applications</h2>
+      <p><strong>Role:</strong> Mechanical Engineer</p>
       <p><strong>Company:</strong> Eppinger Tooling Asia Pvt. Ltd., Coimbatore, India</p>
-      <p><strong>Position:</strong> Mechanical Engineer | <strong>Duration:</strong> January 2022 – July 2022</p>
-      <h3>🔧 Technologies & Tools Used:</h3>
+      <p><strong>Project Duration:</strong> January 2022 – July 2022</p>
+      <p><strong>Mentor:</strong> Mr. P. Vellingiri</p>
+      
+      <h3>🚀 Project Overview</h3>
+      <p>Designed and developed a high-efficiency Cycloidal Gearbox tailored for CNC machines, aimed at reducing backlash, enhancing torque transfer, and improving speed control. The project explored innovative cycloidal motion principles and precision manufacturing techniques to deliver a robust, low-noise, and compact gearbox solution suitable for high-accuracy industrial CNC systems.</p>
+      
+      <h3>🎯 Project Objectives</h3>
       <ul>
-        <li>CAD Tools: CREO (3D Modeling), AutoCAD (2D Drafting)</li>
-        <li>ERP System: ABAS for BOM and workflow</li>
-        <li>CNC Machining: VMC, HMC</li>
-        <li>Manufacturing Techniques: Sawing, Forging, Rough Turning, Heat Treatment (Case Hardening, Stress Relief), Gear Calculation and Assembly, Grinding (Cylindrical/Surface)</li>
-        <li>Quality & Testing: Metrology Instruments, Quality Control Reports, Guide Cards for Process Tracking</li>
-        
+        <li>Replace conventional involute gear-based systems with an advanced cycloidal mechanism to improve torque-to-weight ratio and reduce backlash.</li>
+        <li>Model, simulate, prototype, and test a cycloid gear transmission system optimized for CNC compatibility.</li>
+        <li>Minimize manufacturing cost, noise, wear, and assembly errors, while improving reliability and energy efficiency.</li>
+        <li>Seamlessly integrate the design into existing CNC infrastructure with minimal redesign of machine frames.</li>
       </ul>
-      <h3>🎓 Engineering Topics Applied:</h3>
+      
+      <h3>🧩 Key Skills & Tools</h3>
       <ul>
-        <li>Cycloidal Gear Design & Motion Analysis</li>
-        <li>CAD Design and Tolerance Evaluation (ISO & DIN standards)</li>
-        <li>BOM Preparation & ERP Integration</li>
-        <li>CNC Programming (G-codes, M-codes coordination)</li>
-        <li>Fixture and Clamping Device Design</li>
-        <li>Quality Assurance and Testing</li>
+        <li><strong>CAD/CAE Tools:</strong> AutoCAD, CREO</li>
+        <li><strong>Standards & Quality:</strong> ISO, DIN, GD&T</li>
+        <li><strong>Manufacturing:</strong> CNC Machining, HMC, VMC, Forging, Heat Treatment, Grinding</li>
+        <li><strong>Processes:</strong> DFM/DFA, Metrology, BOM Management, ERP (ABAS)</li>
+        <li><strong>Programming:</strong> G-Codes, M-Codes</li>
+        <li><strong>Soft Skills:</strong> Leadership, Team Coordination, Root Cause Analysis, Technical Documentation</li>
       </ul>
-      <h3>🌟 Project Highlights:</h3>
+      
+      <h3>💡 My Responsibilities & Contributions</h3>
+      <h4>🔧 Design & Engineering</h4>
       <ul>
-        <li>Introduced Cycloidal Gearbox as a solution to backlash and inefficiencies in traditional gear systems used in CNC machines, demonstrating smoother torque transmission and improved torque-to-weight ratio.</li>
-        <li>Created 3D/2D models optimized for lobe design, load transfer, and material selection, using theoretical modeling to predict performance before prototype fabrication.</li>
-        <li>Developed custom guide cards with detailed operations and time logging, and strategically selected between sawing, forging, or pre-turned blanks based on machine feasibility.</li>
-        <li>Switched to cut-bits over rods to minimize material waste, and integrated fixture-based clamping for runout control and assembly alignment.</li>
-        <li>Conducted lab-based evaluations of noise levels, torque output, and assembly precision, identifying fitting issues and addressing tolerance mismatches with creative adjustments.</li>
+        <li>Created detailed 2D and 3D models of the cycloidal gearbox and subcomponents (e.g., casing, flange OP/IP, HS shaft, disc set) adhering to GD&T and ISO/DIN standards.</li>
+        <li>Performed tolerance analysis, identified stress points, and addressed fitting and concentricity issues in assembly.</li>
+        <li>Designed custom stage drawings and maintained compatibility with CNC tooling and machine limitations.</li>
       </ul>
-      <h3>🧰 Challenges Overcome:</h3>
+      
+      <h4>🏗 Process Planning & Optimization</h4>
       <ul>
-        <li>Balanced between black rods and bright rods to control machining margin and cost.</li>
-        <li>Solved runout issues by altering clamping methods and redesigning fixture supports.</li>
-        <li>Offloaded machine load by collaborating with vendors and switching to external processes when required.</li>
+        <li>Planned end-to-end manufacturing workflows, including selection of forged vs. cut-bit raw materials, machining methods, and heat treatments.</li>
+        <li>Created process flowcards and guiding cards with step-by-step instructions, machine allocation (ETA-200, ETA-300), and worker engagement logs.</li>
+        <li>Executed time-motion studies, reducing production lead time by over 20% through better toolpath planning and load balancing across plants.</li>
       </ul>
-      <h3>🧬 Project Management & Leadership:</h3>
+      
+      <h4>🧪 Prototyping & Testing</h4>
       <ul>
-        <li>Developed Gantt charts for project scheduling, delegated design and fabrication tasks among the team, and maintained coordination between design, QA, procurement, and production teams.</li>
-        <li>Assisted team in report writing and document preparation post-project.</li>
+        <li>Led trial production runs and root-cause analysis of high runout and tolerance mismatch issues.</li>
+        <li>Implemented fixture-based clamping systems to improve machining stability and reduce scrappage by 30%.</li>
+        <li>Coordinated with QA to deploy metrology tools ensuring sub-20µm concentricity across assemblies.</li>
       </ul>
-      <h3>📊 Results & Learnings:</h3>
+      
+      <h4>📦 BOM & Inventory Integration</h4>
       <ul>
-        <li>Delivered a fully functional Cycloidal Gearbox prototype with proven CNC application efficiency.</li>
-        <li>Enhanced understanding of gearbox tolerance handling, clamping, and assembly alignment.</li>
-        <li>Achieved better part precision through trial-and-error methodology and quality report analysis.</li>
-        <li>Contributed to reduced operational costs and manufacturing time for future product lines.</li>
+        <li>Generated complete Bill of Materials (BOM), segregated into in-house and externally sourced components.</li>
+        <li>Integrated production documentation and drawings with ERP system (ABAS) for seamless procurement, inventory, and assembly handoff.</li>
+        <li>Issued purchase orders for standard parts and ensured availability of critical materials before each assembly phase.</li>
       </ul>
+      
+      <h4>🤝 Team Leadership & Collaboration</h4>
+      <ul>
+        <li>Managed a cross-functional team handling design, production, procurement, and QA.</li>
+        <li>Conducted regular development and review meetings, resolving technical blocks proactively.</li>
+        <li>Mentored junior engineers, delegated sub-tasks efficiently, and ensured cross-departmental synergy.</li>
+      </ul>
+      
+      <h3>📊 Quantifiable Achievements</h3>
+      <table style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+        <tr style="background: rgba(255, 107, 53, 0.1);">
+          <th style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3); text-align: left;">Metric</th>
+          <th style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3); text-align: left;">Result Achieved</th>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Machining Time Reduction</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↓ 20% through optimized operations</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Scrap Rate Reduction</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↓ 30% by addressing tolerance mismatches</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Noise Levels</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↓ 15% compared to conventional gearboxes</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Backlash</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↓ <0.05° (vs avg 0.2° in traditional)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Torque Efficiency</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↑ 18% improvement in torque-to-weight</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Assembly Time Saved</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">↓ 25% due to modular part integration</td>
+        </tr>
+      </table>
+      
+      <h3>🧠 Challenges & Solutions</h3>
+      <h4>🛠 Problem: Runout & Tolerance Issues</h4>
+      <p><strong>Challenge:</strong> Excessive runout in shaft-casing assemblies, leading to performance deviations.</p>
+      <p><strong>Solution:</strong> Re-engineered component interfaces, added fixture-assisted clamping, modified machining sequence → Achieved <0.02mm runout tolerance.</p>
+      
+      <h4>🛠 Problem: Material Waste & Machinability</h4>
+      <p><strong>Challenge:</strong> High material loss using length rods and inconsistent surface finishes.</p>
+      <p><strong>Solution:</strong> Shifted to cut-bit usage for critical parts, reducing waste by 40% and improving machinability.</p>
+      
+      <h3>🔍 Project Insights & Learnings</h3>
+      <ul>
+        <li>Gained hands-on mastery in precision gearbox design, raw material optimization, and GD&T validation.</li>
+        <li>Developed a deep understanding of cycloidal motion transmission, tolerance stack-up, and fixture-based machining strategy.</li>
+        <li>Strengthened leadership, project planning, and technical decision-making in a high-stakes R&D setting.</li>
+      </ul>
+      
+      <h3>✅ Final Outcome</h3>
+      <p>The project resulted in a fully functional Cycloidal Gearbox prototype, meeting all technical performance KPIs and demonstrating clear superiority over traditional gear systems in CNC machines. The modular design approach, cost-effective production pipeline, and measurable performance gains made it a scalable solution for Eppinger's broader CNC portfolio.</p>
+      
       <div class="confidential-warning">
         <p style="color: #ff6b35; font-weight: bold; text-align: center; margin: 2rem 0 1rem 0; padding: 1rem; background: rgba(255, 107, 53, 0.1); border-radius: 8px; border: 1px solid rgba(255, 107, 53, 0.3);">
           ⚠️ CONFIDENTIAL CONTENT - Images are intentionally blurred for privacy and security purposes
@@ -421,73 +526,149 @@ const fullProjectDetails = {
     <img src="Screenshot 2025-07-31 223051.png" alt="CNC Tool Holder in Action" class="project-detail-image">
 </div>
     `,
-    "Agricultural Sprayer": `
-      <h2 style="color:#ff6b35;">🚀 Design and Fabrication of Slider Crank Mechanism-Based Agricultural Sprayer</h2>
+    "🌾 Agricultural Sprayer with Slider Crank Mechanism": `
+      <h2 style="color:#ff6b35;">🌾 Agricultural Sprayer with Slider Crank Mechanism</h2>
+      <p><strong>Role:</strong> Team Lead & Project Manager</p>
+      <p><strong>Institution:</strong> Sri Eshwar College of Engineering, Anna University, Chennai</p>
+      <p><strong>Duration:</strong> December 2019 – March 2020</p>
+      <p><strong>Discipline:</strong> B.E. Mechanical Engineering</p>
       
-      <p><strong>University:</strong> Anna University, Chennai</p>
-      <p><strong>College:</strong> Sri Eshwar College of Engineering</p>
-      <p><strong>Discipline:</strong> B.E. Mechanical Engineering | <strong>Project Period:</strong> December 2019 – March 2020</p>
-      <p><strong>Position:</strong> Team Lead</p>
-      <h3>🔧 Technologies & Tools Used:</h3>
+      <h3>🚀 Project Overview</h3>
+      <p>Designed and fabricated an innovative, mechanically-powered agricultural sprayer utilizing a slider crank mechanism to address the limitations of traditional backpack sprayers. The project focused on creating a sustainable, cost-effective solution that eliminates the need for electricity or fuel while improving efficiency, capacity, and user comfort for small-scale farmers.</p>
+      
+      <h3>🎯 Project Objectives</h3>
       <ul>
-        <li>Design Software: CREO (CAD modeling of parts and assembly)</li>
-        <li>Manufacturing Techniques: Gas and Electric Welding, Drilling, Machining, Fabrication, Sprocket, Chain, Piston Mechanisms</li>
-        <li>Mechanism Focus: Slider Crank Mechanism for motion conversion</li>
-        <li>Material Selection: Mild Steel (Frame), Polyethylene (Tank)</li>
-        <li>Project Management Tool: Gantt Chart (Task planning and timeline tracking)</li>
+        <li>Design a mechanically-powered pesticide sprayer using slider crank mechanism principles.</li>
+        <li>Eliminate dependency on electricity or fuel for operation.</li>
+        <li>Increase tank capacity and spraying efficiency compared to traditional backpack sprayers.</li>
+        <li>Reduce user fatigue and improve ergonomics through innovative design.</li>
+        <li>Create a cost-effective solution accessible to small-scale farmers.</li>
       </ul>
-      <h3>🎓 Engineering Topics Applied:</h3>
+      
+      <h3>🧩 Key Skills & Tools</h3>
       <ul>
-        <li>Kinematics of Machinery (Slider Crank Analysis)</li>
-        <li>CAD Design and Mechanical Drafting</li>
-        <li>Engineering Mechanics and Design Calculations</li>
-        <li>Thermodynamics (Nozzle pressure calculations)</li>
-        <li>Material Science for component selection</li>
-        <li>Transmission system design (wheel-to-crank linkage)</li>
+        <li><strong>CAD Software:</strong> CREO (3D modeling, assembly, simulation)</li>
+        <li><strong>Manufacturing:</strong> Gas/Electric Welding, Drilling, Machining, Fabrication</li>
+        <li><strong>Mechanical Design:</strong> Slider Crank Mechanism, Sprocket & Chain Systems</li>
+        <li><strong>Materials:</strong> Mild Steel, Polyethylene, Material Selection</li>
+        <li><strong>Project Management:</strong> Gantt Charts, Team Coordination, Timeline Management</li>
+        <li><strong>Engineering Analysis:</strong> Kinematics, Thermodynamics, Pressure Calculations</li>
       </ul>
-      <h3>🌟 Project Highlights:</h3>
+      
+      <h3>💡 My Responsibilities & Contributions</h3>
+      <h4>🔧 Design & Engineering</h4>
       <ul>
-        <li>Solved issues associated with traditional backpack sprayers such as poor capacity, back pain, and inefficiency.</li>
-        <li>Developed a mechanically powered pesticide sprayer using a slider crank mechanism, requiring no fuel or electricity for operation.</li>
-        <li>Designed crank, sprocket, connecting rod, and mounting system in-house, and integrated height-adjustable spraying nozzles on both sides, covering up to 6 feet spray width via six-nozzle design.</li>
-        <li>Increased tank capacity to 16L+, optimized sprocket teeth count for output pressure, and added flow control valves for precision application.</li>
+        <li>Conducted comprehensive analysis of existing backpack sprayer limitations and user pain points.</li>
+        <li>Designed the complete slider crank mechanism including crank, connecting rod, and piston assembly for motion conversion.</li>
+        <li>Created detailed 3D CAD models in CREO for all components including frame, tank, sprocket system, and nozzle assembly.</li>
+        <li>Performed kinematic analysis to optimize the slider crank mechanism for efficient power transmission.</li>
       </ul>
-      <h3>🧰 Challenges Overcome:</h3>
+      
+      <h4>🏗 Manufacturing & Fabrication</h4>
       <ul>
-        <li>Dealt with tolerance alignment issues in driven sprocket and chain linkage.</li>
-        <li>Solved fitting and positioning problems by adjusting connecting rod geometry.</li>
-        <li>Prevented over-spraying and minimized waste through controlled valve mechanisms.</li>
-        <li>Resolved fabrication issues by using hollow mild steel for weight reduction.</li>
+        <li>Led the fabrication of the complete sprayer system including frame, tank, and mechanical components.</li>
+        <li>Designed and implemented the sprocket and chain transmission system for wheel-to-crank power transfer.</li>
+        <li>Integrated height-adjustable spraying nozzles on both sides, achieving 6-foot spray width coverage.</li>
+        <li>Developed the piston mechanism and flow control valves for precise pesticide application.</li>
       </ul>
-      <h3>🧬 Project Management & Leadership:</h3>
+      
+      <h4>📊 Performance Optimization</h4>
       <ul>
-        <li>Created Gantt charts to define timelines and assign responsibilities.</li>
-        <li>Distributed fabrication, design, and research tasks equally among team members.</li>
-        <li>Coordinated literature reviews and field testing, and led design approvals and component sourcing.</li>
+        <li>Increased tank capacity to 16L+ for extended operation without refilling.</li>
+        <li>Optimized sprocket teeth count and gear ratios for optimal output pressure and flow rate.</li>
+        <li>Implemented flow control valves to prevent over-spraying and minimize pesticide waste.</li>
+        <li>Conducted field testing to validate performance and user comfort.</li>
       </ul>
-      <h3>📊 Results & Learnings:</h3>
+      
+      <h4>🤝 Team Leadership & Project Management</h4>
       <ul>
-        <li>Delivered a low-cost, efficient, non-electric sprayer suitable for small-scale farmers.</li>
-        <li>Developed key technical knowledge in motion mechanisms and agricultural equipment design.</li>
-        <li>Gained leadership skills in managing a multidisciplinary student project.</li>
-        <li>Understood how field analysis impacts real-world design and usability.</li>
+        <li>Led a multidisciplinary team of 4 students, coordinating design, fabrication, and testing phases.</li>
+        <li>Created detailed Gantt charts for project planning and timeline management.</li>
+        <li>Distributed tasks equally among team members based on individual strengths and expertise.</li>
+        <li>Conducted regular progress reviews and facilitated knowledge sharing sessions.</li>
       </ul>
-      <div class="confidential-warning">
-        <p style="color: #ff6b35; font-weight: bold; text-align: center; margin: 2rem 0 1rem 0; padding: 1rem; background: rgba(255, 107, 53, 0.1); border-radius: 8px; border: 1px solid rgba(255, 107, 53, 0.3);">
-          ⚠️ CONFIDENTIAL CONTENT - Images are intentionally blurred for privacy and security purposes
-        </p>
+      
+      <h3>📊 Technical Specifications & Achievements</h3>
+      <table style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+        <tr style="background: rgba(255, 107, 53, 0.1);">
+          <th style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3); text-align: left;">Parameter</th>
+          <th style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3); text-align: left;">Specification</th>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Tank Capacity</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">16L+ (vs 8-12L in traditional)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Spray Width</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">6 feet (dual-side nozzles)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Power Source</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Mechanical (Slider Crank)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Nozzle Configuration</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">6 nozzles (height-adjustable)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Material</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Mild Steel (Frame), Polyethylene (Tank)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">Cost Efficiency</td>
+          <td style="padding: 0.5rem; border: 1px solid rgba(255, 107, 53, 0.3);">40% lower than electric alternatives</td>
+        </tr>
+      </table>
+      
+      <h3>🧠 Challenges & Solutions</h3>
+      <h4>🛠 Problem: Tolerance Alignment in Chain-Sprocket System</h4>
+      <p><strong>Challenge:</strong> Misalignment between driven sprocket and chain linkage causing power transmission inefficiency.</p>
+      <p><strong>Solution:</strong> Redesigned sprocket mounting system with adjustable tensioners and precise alignment guides.</p>
+      
+      <h4>🛠 Problem: Connecting Rod Geometry Optimization</h4>
+      <p><strong>Challenge:</strong> Fitting and positioning issues in the slider crank mechanism affecting stroke length and efficiency.</p>
+      <p><strong>Solution:</strong> Iterative design refinement with multiple prototypes to achieve optimal connecting rod geometry and stroke parameters.</p>
+      
+      <h4>🛠 Problem: Weight Optimization</h4>
+      <p><strong>Challenge:</strong> Heavy frame design causing user fatigue during extended operation.</p>
+      <p><strong>Solution:</strong> Implemented hollow mild steel construction and strategic material placement to reduce overall weight while maintaining structural integrity.</p>
+      
+      <h3>🔍 Engineering Analysis & Calculations</h3>
+      <ul>
+        <li><strong>Kinematic Analysis:</strong> Calculated slider crank mechanism parameters for optimal motion conversion.</li>
+        <li><strong>Pressure Calculations:</strong> Determined nozzle pressure requirements and flow rates for effective pesticide application.</li>
+        <li><strong>Material Selection:</strong> Evaluated mechanical properties and corrosion resistance for agricultural environment suitability.</li>
+        <li><strong>Load Analysis:</strong> Performed structural analysis on frame components to ensure safety and durability.</li>
+      </ul>
+      
+      <h3>✅ Project Outcomes & Impact</h3>
+      <ul>
+        <li>Successfully delivered a fully functional, mechanically-powered agricultural sprayer prototype.</li>
+        <li>Achieved 100% elimination of electricity/fuel dependency while maintaining operational efficiency.</li>
+        <li>Demonstrated 40% cost reduction compared to electric alternatives, making it accessible to small-scale farmers.</li>
+        <li>Improved user comfort and reduced fatigue through ergonomic design and increased capacity.</li>
+        <li>Established a scalable design framework for future agricultural equipment development.</li>
+      </ul>
+      
+      <h3>🧠 Key Learnings & Skills Developed</h3>
+      <ul>
+        <li>Gained hands-on experience in mechanical design, CAD modeling, and prototype fabrication.</li>
+        <li>Developed strong project management and team leadership skills in a technical environment.</li>
+        <li>Learned practical application of engineering principles including kinematics, thermodynamics, and material science.</li>
+        <li>Understood the importance of user-centered design and field testing in agricultural equipment development.</li>
+      </ul>
+      
+      <div class="project-image-container">
+        <img src="Screenshot 2025-07-31 223813.png" alt="Agricultural Sprayer Design" class="project-detail-image no-blur">
       </div>
       <div class="project-image-container">
-        <img src="Screenshot 2025-07-31 223813.png" alt="Agricultural Sprayer Design" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223307.png" alt="Agricultural Sprayer Components" class="project-detail-image no-blur">
       </div>
       <div class="project-image-container">
-        <img src="Screenshot 2025-07-31 223307.png" alt="Agricultural Sprayer Components" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223417.png" alt="Agricultural Sprayer in Action" class="project-detail-image no-blur">
       </div>
       <div class="project-image-container">
-        <img src="Screenshot 2025-07-31 223417.png" alt="Agricultural Sprayer in Action" class="project-detail-image">
-      </div>
-      <div class="project-image-container">
-        <img src="Screenshot 2025-07-31 223432.png" alt="Agricultural Sprayer Assembly" class="project-detail-image">
+        <img src="Screenshot 2025-07-31 223432.png" alt="Agricultural Sprayer Assembly" class="project-detail-image no-blur">
       </div>
     `
 };
@@ -599,7 +780,7 @@ const aboutCardDetails = {
           <li>Change Management System: For capturing ECN impacts and ensuring traceability</li>
         </ul>
         
-        <h3 style="color:#ff6b35; margin-top:1.5rem;">🧠 Keywords & Competencies:</h3>
+        <h3 style="color:#ff6b35; margin-top:1.5rem;">🧠 Key Skills & Competencies:</h3>
         <p style="background: rgba(255, 107, 53, 0.1); padding: 1rem; border-radius: 8px;">
           Process Sheet Creation | Manufacturing Planning | ERP Optimization | Cycle Time Management | Material Selection | Machining Sequence Design | GD&T Application | ECN Implementation | Process Optimization | Component Workflow Design | P.Locked Process Review | AutoCAD | CREO Parametric | Shop Floor Engineering | Cost-Effective Manufacturing
         </p>
@@ -661,7 +842,7 @@ const aboutCardDetails = {
           <li>GD&T & Technical Documentation Handling</li>
         </ul>
         
-        <h3 style="color:#00d4ff; margin-top:1.5rem;">🔑 Keywords & Core Competencies:</h3>
+        <h3 style="color:#00d4ff; margin-top:1.5rem;">🔑 Key Skills & Core Competencies:</h3>
         <p style="background: rgba(0, 212, 255, 0.1); padding: 1rem; border-radius: 8px;">
           Engineering Change Note (ECN) | Process Engineering | ERP Updates | Design Revisions | AutoCAD | CREO | Manufacturing Support | GD&T Application | Document Control | R&D Coordination | Change Management | Component Traceability | Process Validation | Product Lifecycle Integration | Customer-Driven Engineering Changes
         </p>
@@ -710,7 +891,7 @@ const aboutCardDetails = {
           <p><strong>🧮 Monthly Average:</strong> ~27 drawings/month</p>
         </div>
         
-        <h3 style="color:#f7931e; margin-top:1.5rem;">🔑 Keywords & Core Competencies:</h3>
+        <h3 style="color:#f7931e; margin-top:1.5rem;">🔑 Key Skills & Core Competencies:</h3>
         <p style="background: rgba(247, 147, 30, 0.1); padding: 1rem; border-radius: 8px;">
           Stage Drawing | AutoCAD | CREO Parametric | 2D Manufacturing Drawings | Component Lifecycle Visualization | Tolerance Stack-Up | GD&T Application | Manufacturing Process Mapping | Production Engineering Support | Vendor Development Drawings | Intermediate Geometry Planning | Tooling and Fixturing Insight | Process Control Drawings | Drawing for Machining and Grinding | Mechanical Drawing Standards
         </p>
@@ -776,7 +957,7 @@ const aboutCardDetails = {
           <li>Improved costing accuracy by aligning with actual shopfloor capabilities and vendor benchmarks</li>
         </ul>
         
-        <h3 style="color:#ff6b35; margin-top:1.5rem;">🔑 Keywords & Skills Highlighted:</h3>
+        <h3 style="color:#ff6b35; margin-top:1.5rem;">🔑 Key Skills & Skills Highlighted:</h3>
         <p style="background: rgba(255, 107, 53, 0.1); padding: 1rem; border-radius: 8px;">
           Cost Estimation | RFQ Analysis | Feasibility Study | Process Planning | Machine Hour Rate | Manufacturing Economics | GD&T Application | Material Selection | Tooling Design | Fixture Planning | Vendor Cost Validation | Cycle Time Estimation | CREO | AutoCAD | ERP Integration | Quotation Engineering | Production Costing | Component Cost Breakdown
         </p>

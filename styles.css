@@ -479,9 +479,13 @@ section {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     margin-top: 3rem;
+}
+
+.skills .skill:nth-child(n+5) {
+    grid-column: span 1.33;
 }
 
 .skill {
@@ -1239,6 +1243,19 @@ section {
     opacity: 0.8;
 }
 
+/* Remove blur for specific projects */
+.project-detail-image.no-blur {
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.project-detail-image.no-blur:hover {
+    filter: blur(0px);
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
+    opacity: 1;
+}
+
 /* Responsive adjustments for project images */
 @media (max-width: 768px) {
     .project-image-container {
@@ -1285,4 +1302,40 @@ section {
 @keyframes blink-caret {
     from, to { border-color: transparent; }
     50% { border-color: var(--primary); }
+}
+
+/* Contact Links */
+.contact-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.contact-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--primary);
+}
+
+.contact-link:hover::after {
+    width: 100%;
+}
+
+.contact-item p {
+    margin: 0.5rem 0;
+}
+
+.contact-item a {
+    word-break: break-all;
 }
