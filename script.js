@@ -2,6 +2,44 @@
 let mouseX = 0, mouseY = 0;
 let cursorTrails = [];
 
+// Prevent right-click and other context menus
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    return false;
+});
+
+// Prevent keyboard shortcuts
+window.addEventListener('keydown', function(e) {
+    // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+    if (e.key === 'F12' || 
+        (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+        (e.ctrlKey && e.shiftKey && e.key === 'J') || 
+        (e.ctrlKey && e.key === 'u') ||
+        (e.ctrlKey && e.key === 's') ||
+        (e.ctrlKey && e.key === 'S') ||
+        (e.metaKey && e.key === 's') ||
+        (e.metaKey && e.key === 'S')) {
+        e.preventDefault();
+        return false;
+    }
+});
+
+// Prevent drag and drop of images
+document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+        return false;
+    }
+});
+
+// Prevent touch events for images on mobile
+document.addEventListener('touchstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+        return false;
+    }
+}, { passive: false });
+
 // Initialize everything when page loads
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
@@ -383,16 +421,24 @@ const fullProjectDetails = {
         </p>
       </div>
       <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 221904.png" alt="CNC Tool Holder Design" class="project-detail-image">
 </div>
+</div>
       <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 221934.png" alt="CNC Tool Holder Components" class="project-detail-image">
 </div>
+</div>
        <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 221954.png" alt="CNC Tool Holder in Action" class="project-detail-image">
 </div>
+</div>
       <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 222038.png" alt="Cycloidal Gearbox Design" class="project-detail-image">
+</div>
 </div>
     `,
 
@@ -517,13 +563,19 @@ const fullProjectDetails = {
         </p>
       </div>
       <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 222949.png" alt="CNC Tool Holder Design" class="project-detail-image">
 </div>
+</div>
       <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 223014.png" alt="CNC Tool Holder Components" class="project-detail-image">
 </div>
+</div>
        <div class="project-image-container">
+    <div class="image-container">
     <img src="Screenshot 2025-07-31 223051.png" alt="CNC Tool Holder in Action" class="project-detail-image">
+</div>
 </div>
     `,
     "🌾 Agricultural Sprayer with Slider Crank Mechanism": `
@@ -659,15 +711,22 @@ const fullProjectDetails = {
       </ul>
       
       <div class="project-image-container">
+        <div class="image-container">
         <img src="Screenshot 2025-07-31 223813.png" alt="Agricultural Sprayer Design" class="project-detail-image no-blur">
+</div>
       </div>
       <div class="project-image-container">
+        <div class="image-container">
         <img src="Screenshot 2025-07-31 223307.png" alt="Agricultural Sprayer Components" class="project-detail-image no-blur">
+</div>
       </div>
       <div class="project-image-container">
+        <div class="image-container">
         <img src="Screenshot 2025-07-31 223417.png" alt="Agricultural Sprayer in Action" class="project-detail-image no-blur">
+</div>
       </div>
       <div class="project-image-container">
+        <div class="image-container">
         <img src="Screenshot 2025-07-31 223432.png" alt="Agricultural Sprayer Assembly" class="project-detail-image no-blur">
       </div>
     `
